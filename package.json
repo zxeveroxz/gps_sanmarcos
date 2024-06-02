@@ -4,7 +4,8 @@
 "description": "Rastreo",
 "main":"app.js",
 "scripts": {
-  "test": "echo"
+  "test": "echo",
+  "start": "node app.js"
 },
   "dependencies": {
     "axios": "^1.7.2",
