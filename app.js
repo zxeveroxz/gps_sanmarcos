@@ -1,9 +1,11 @@
+require('dotenv').config();
+
 const express = require('express');
 const { fetchData } = require('./fetchData');
 const { getState } = require('./state');
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT ||process.env.GPS__PUERTO;
 
 app.get('/estado', (req, res) => {
     const state = getState();
