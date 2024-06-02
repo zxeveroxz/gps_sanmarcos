@@ -1,0 +1,6 @@
+GPS__RUTA1="https"
+GPS__RUTA2="https"
+GPS__USUARIO="abcd"
+GPS__CLAVE="s12345678"
+GPS__SEDE="lima"
+GPS__PUERTO=8080

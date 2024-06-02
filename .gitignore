@@ -1,0 +1,10 @@
+
+node_modules
+./node_modules/
+./GALLETAS/*.js
+GALLETAS/*.js
+
+
+.env
+
+./.env
